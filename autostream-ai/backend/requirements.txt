@@ -1,0 +1,53 @@
+# AutoStream AI Backend Dependencies
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Data Validation
+pydantic>=2.5.0
+
+# HTTP Client
+httpx>=0.25.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Asynchronous
+asyncio>=3.4.3
+aiofiles>=23.0.0
+
+# Web Scraping
+firecrawl-py>=0.0.1
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+
+# Video Processing
+opencv-python>=4.8.0
+moviepy>=1.0.3
+ffmpeg-python>=0.2.0
+
+# AI/ML
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.35.0
+
+# TTS
+elevenlabs>=0.2.0
+gTTS>=2.4.0
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+colorlog>=6.7.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
